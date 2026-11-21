@@ -11,6 +11,10 @@ import { SignupComponent } from './signup/signup.component';
 import { HttpClientModule } from '@angular/common/http';
 import { RoleComponent } from './role/role.component';
 import { UserComponent } from './user/user.component';
+import { UserListComponent } from './user/user-list.component';
+import { RoleListComponent } from './role/role-list.component';
+import { MarksheetComponent } from './marksheet/marksheet.component';
+import { MarksheetListComponent } from './marksheet/marksheet-list.component';
 
 
 @NgModule({
@@ -22,7 +26,11 @@ import { UserComponent } from './user/user.component';
     LoginComponent,
     SignupComponent,
     RoleComponent,
-    UserComponent
+    UserComponent,
+    UserListComponent,
+    RoleListComponent,
+    MarksheetComponent,
+    MarksheetListComponent
   ],
   imports: [
     BrowserModule,
